@@ -1,0 +1,137 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: "Lucida Handwriting", Cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  height: 60px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+/* BODY */
+#menu-title{
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+.col-sm-12{
+  background-color: #CCCCCC;
+}
+
+.col-sm-12 > h3{
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 10px;
+}
+
+.col-sm-12 > div{
+  padding-bottom: 20px;
+}
+
+.p-title{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* END BODY */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
